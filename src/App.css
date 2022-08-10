@@ -14,7 +14,7 @@ nav .img-logo {
 }
 
 
-section {
+section, .dataProp {
     padding: 30px;
 }
 
@@ -127,4 +127,32 @@ section {
 .rating i {
     font-size: 15px;
     color: #FF385C;
+}
+
+
+
+.data-props {
+    width: 95%;
+    display: flex;
+
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+}
+.data-props::-webkit-scrollbar{
+    display: none;
+}
+.card-header, .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    width: 200px;
+    border: 1px solid #eee;
+    padding: 1rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    cursor: grab;
 }
