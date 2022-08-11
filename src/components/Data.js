@@ -1,7 +1,16 @@
 import React from 'react'
 import Card from './Card'
 
+
+const data = ["Furites", "Stocks", "Dresses", "Shirts", "Books"];
+console.log(data);
+const testData = data.map((data) => {
+    return `<p>${data}</p>`
+}).join()
+console.log(testData)
+
 function Data() {
+
   return (
     <div className="dataProp">
         <h3>Dealing with Props</h3>

@@ -6,7 +6,9 @@ function Hero() {
         
         <div className="hero-content">
             <h1 className='hero-text hero-heading'>Online Experiences</h1>
-            <p className='hero-text hero-detailed-text'>Join online intractive activities led by on-of-a-kind hotels-all without leaving home.</p>
+            <p className='hero-text hero-detailed-text'>
+              <span>Join online intractive activities led by on-of-a-kind hotels-all without leaving home.</span>
+            </p>
             <a href="#" className="btn btn-hero">
                 <span>Explore Experiences</span>
                 <span className="icon">
