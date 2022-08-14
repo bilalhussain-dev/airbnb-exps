@@ -26,7 +26,7 @@ function App() {
   // console.log(turnedToUpperCase)
 
   const fakeData = data.map(item => {
-    return <Fake key={item.id} item={item}> </Fake>
+    return <Fake key={item.id} {...item}> </Fake>
   });
 
   console.log(fakeData);
@@ -41,7 +41,12 @@ function App() {
       <Hero />
       <ListExperiences />
       <Data />
+
+      <div className="posts-section">
+        <h3>Reading & Fetching JSON to the web browser </h3>
       <div className='posts'>{fakeData}</div>
+
+      </div>
     </div>
   );
 }

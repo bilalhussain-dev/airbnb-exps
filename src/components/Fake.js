@@ -1,7 +1,7 @@
 import React from 'react'
 // import data from '../api-data/data'
 
-function Fake({item}) {
+function Fake(item) {
 
   let isOnline;
   if(item.online === true) {

@@ -20,5 +20,12 @@ export default [
       "title": "What is Jumpstart",
       "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
       "online": false
+    },
+    {
+      "username": "Emily",
+      "id": 4,
+      "title": "Ruby On Rails",
+      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
+      "online": true
     }
 ]
