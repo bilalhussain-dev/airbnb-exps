@@ -13,7 +13,16 @@ function App() {
   //   return <Dest
   // });
 
-  console.log(testData)
+  // console.log(testData)
+
+  const names = ["banana", "apple", "peach"];
+  const turnedToUpperCase = names.map(name => {
+    return name[0].toUpperCase() + name.slice(1);
+  });
+  console.log(names)
+  console.log(turnedToUpperCase)
+
+
   return (
 
     <div className="App">
